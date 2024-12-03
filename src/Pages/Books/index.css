@@ -1,0 +1,55 @@
+.book-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.book-container h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.book-container input{
+    padding: 15px;
+    width: 80%;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.book-container button{
+    padding: 15px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-bottom: 30px;
+background-color:aliceblue;
+}
+.book-container button:active{
+    transform: scale(0.95);
+}
+.bookTake{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bookUI{
+    width: 300px;
+    height: 180px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+.bookUI img{
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.bookUI div{
+    font-size: 25px;
+    font-weight: 700;
+
+}
